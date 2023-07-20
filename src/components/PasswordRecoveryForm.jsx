@@ -19,10 +19,14 @@ const PasswordRecoveryForm = ({ onCancel }) => {
     }
   },[emailPassword])
   const fetchData = async(email,emailPassword)=>{
-    await axios.put("http://localhost:5000/rest-api/recoveryUserPass", {
+    await axios.put("https://itcube-chat-server.onrender.com/rest-api/recoveryUserPass", {
       user_mail: email,
       password_from_email: emailPassword,
     });
+    // await axios.put("http://localhost:5000/rest-api/recoveryUserPass", {
+    //   user_mail: email,
+    //   password_from_email: emailPassword,
+    // });
   }
 
   const handleSubmit = (e) => {

@@ -34,12 +34,18 @@ const RegistrationForm = () => {
     setUsername(e.target.value);
   };
   const fetchData = async(username,email,password,emailPassword)=>{
-    await axios.post("http://localhost:5000/rest-api/regUser", {
+    await axios.post("https://itcube-chat-server.onrender.com/rest-api/regUser", {
       user_login: username,
       user_mail: email,
       user_password: password,
       password_from_email: emailPassword,
     });
+    // await axios.post("http://localhost:5000/rest-api/regUser", {
+    //   user_login: username,
+    //   user_mail: email,
+    //   user_password: password,
+    //   password_from_email: emailPassword,
+    // });
   }
   const handleSubmit = async (e) => {
     e.preventDefault();
