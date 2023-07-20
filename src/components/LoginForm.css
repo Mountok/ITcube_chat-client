@@ -1,0 +1,164 @@
+.login-form-container {
+  background-color: #0077cc;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 19px 11px rgba(34, 60, 80, 0.2);
+}
+
+.login-form-title {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.login-form-field {
+  margin: 25px 0 15px 0;
+}
+
+.login-form-label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+}
+
+.login-form-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: all 200ms ease-out;
+  font-weight: 600;
+  color: #0077cc;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-form-input:focus {
+  transition: all 200ms ease-in;
+  box-shadow: 0px 0px 19px 11px rgba(34, 60, 80, 0.2);
+}
+
+.login-form-button {
+  background-color: #ffffff;
+  color: #0077cc;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 100ms ease-out;
+}
+
+.login-form-button:hover {
+  transform: scale(1.2);
+  transition: all 100ms ease-in;
+  box-shadow: 0px 0px 19px 11px rgba(34, 60, 80, 0.2);
+}
+
+.forgot-account-link {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all 100ms ease-out;
+  padding: 0;
+  border: none;
+  font-size: 14px;
+}
+
+.forgot-account-link:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+  transition: all 150ms ease-in;
+}
+
+.forgot-account-link:focus {
+  outline: none;
+}
+
+.password-recovery-form-title {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.password-recovery-form-field {
+  margin-bottom: 15px;
+}
+
+.password-recovery-form-label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+}
+
+.password-recovery-form-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: all 200ms ease-out;
+  font-weight: 600;
+  color: #0077cc;
+  font-family: "Montserrat", sans-serif;
+}
+
+.password-recovery-form-input:focus {
+  transition: all 200ms ease-in;
+  box-shadow: 0px 0px 19px 11px rgba(34, 60, 80, 0.2);
+}
+
+.password-recovery-form-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.password-recovery-form-button:hover {
+  transform: scale(1.2);
+  transition: all 100ms ease-in;
+  box-shadow: 0px 0px 19px 11px rgba(34, 60, 80, 0.2);
+}
+
+.password-recovery-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.password-recovery-form-button {
+  background-color: white;
+  color: #0077cc;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.password-recovery-form-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.password-recovery-form-button.cancel {
+  background-color: #0581da;
+  color: white;
+  margin-left: 10px;
+}
+.password-recovery-form-button.cancel:hover {
+  background-color: #0581da;
+  color: #ffffff;
+}

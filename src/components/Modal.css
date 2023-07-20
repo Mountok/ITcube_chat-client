@@ -1,0 +1,74 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    width: 400px;
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
+  }
+
+  
+  .modal-message {
+    margin: 25px 0 30px 0;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #0077cc;
+  }
+  
+  .modal-counter {
+    color: #0077cc;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-progress {
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .modal-progress-bar {
+    height: 100%;
+    background-color: #0077cc;
+    transition: width 1s linear;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .modal-close-icon {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+ 
