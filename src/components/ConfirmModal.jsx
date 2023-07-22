@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./ConfirmModal.css";
+import { useNavigate } from "react-router-dom";
 
 const ConfirmModal = ({ email, emailPassword,onClose, onResendCode }) => {
   const [code, setCode] = useState("");
@@ -8,7 +9,7 @@ const ConfirmModal = ({ email, emailPassword,onClose, onResendCode }) => {
   const [resendCount, setResendCount] = useState(0); 
   const [maxResendCount, setMaxResendCount] = useState(3); 
   const [errorMessage, setErrorMessage] = useState(""); 
-
+  const navigate = useNavigate();
   const handleCodeChange = (e) => {
     setCode(e.target.value);
   };
@@ -55,6 +56,7 @@ const ConfirmModal = ({ email, emailPassword,onClose, onResendCode }) => {
     console.log(emailPassword)
     if(code === emailPassword){
       console.log(true)
+      navigate('/home')
     }
   };
 

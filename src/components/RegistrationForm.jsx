@@ -6,6 +6,7 @@ import ConfirmModal from "./ConfirmModal";
 
 
 
+
 const RegistrationForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
