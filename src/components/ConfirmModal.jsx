@@ -56,7 +56,7 @@ const ConfirmModal = ({ email, emailPassword,onClose, onResendCode }) => {
     console.log(emailPassword)
     if(code === emailPassword){
       console.log(true)
-      navigate('/home')
+      navigate('/home',{state: {isreg: true}})
     }
   };
 

@@ -18,6 +18,7 @@ const RegistrationForm = () => {
 
   useEffect(()=>{
     if(emailPassword.length != 0){
+      console.log(emailPassword)
       fetchData(username,email,password,emailPassword)
     }
   },[emailPassword])
